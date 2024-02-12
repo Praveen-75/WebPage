@@ -1,0 +1,304 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body,
+html {
+     height: 100%;
+     width: 100%;
+}
+
+.main {
+     min-height: 100vh;
+     width: 100%;
+     background-color: #fff;
+}
+
+.nav {
+     height: 5vw;
+     width: 100%;
+     background-color: black;
+     color: #fff;
+     display: flex;
+}
+
+.nav .sright button {
+     background-color: transparent;
+     color: #fff;
+     border: .1vw solid gray;
+     padding: 1vw 4vw;
+     cursor: pointer;
+}
+
+.first {
+     display: flex;
+     height: 35vw;
+     width: 100%;
+     background-color: white;
+}
+
+.fleft img {
+     height: 100%;
+     width: 100%;
+}
+
+.fleft #pp {
+     top: 50%;
+     left: 50%;
+     position: absolute;
+     transform: translate(-50%, -50%);
+     height: 60%;
+     width: 40%;
+}
+
+.fleft {
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     align-items: baseline;
+     justify-content: center;
+     height: 100%;
+     width: 100%;
+     background-color: white;
+}
+
+.fleft h1 {
+     font-size: 3.5vw;
+     font-weight: 100;
+}
+
+.fleft p {
+     font-size: 1vw;
+}
+
+.fright {
+     height: 100%;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+
+.fright p {
+     font-size: 1vw;
+}
+
+.fright h1 {
+     font-size: 4vw;
+     font-weight: 100;
+}
+
+.fright img {
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+}
+
+.fright button,
+.fleft button {
+     padding: 1vw 4vw;
+     margin-top: 3vw;
+     background-color: transparent;
+}
+
+.second {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 5vw;
+     height: 15vw;
+     width: 100%;
+     /* background-color: antiquewhite; */
+     background-color: rgba(189, 183, 107, 0.425);
+}
+
+.circle {
+     height: 10vw;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     width: 10vw;
+     border-radius: 50%;
+     background-color: transparent;
+     border: .1vw solid black;
+}
+
+.circle h3 {
+     font-size: 1.5vw;
+     font-weight: 100;
+}
+
+.thard {
+     display: flex;
+     height: 35vw;
+     width: 100%;
+     background-color: bisque;
+}
+
+.thard p {
+     width: 80%;
+     margin-top: 1vw;
+     font-size: 1.2vw;
+     margin-bottom: 1vw;
+}
+
+.thard .fleft {
+     padding-left: 2vw;
+}
+
+.fourth {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     height: 25vw;
+     gap: 1vw;
+     width: 100%;
+     background-color: rgba(0, 0, 0, 0.943);
+     color: #fff;
+}
+
+.fourth p {
+     width: 40%;
+     font-weight: 100;
+     font-size: 1.2vw;
+     line-height: 1.5vw;
+}
+
+.fourth h1 {
+     font-size: 4vw;
+     font-weight: 100;
+}
+
+.fourth h4 {
+     font-size: 1vw;
+     font-weight: 100;
+}
+
+.fourth h3 {
+     font-size: 1.2vw;
+}
+
+.fourth small {
+     font-size: .8vw;
+}
+
+.fiveth {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     gap: 2vw;
+     align-items: center;
+     height: 40vw;
+     width: 100%;
+     background-color: #fff;
+}
+
+.fiveth h1 {
+     font-size: 3vw;
+     font-weight: 100;
+}
+
+
+.fiveth button {
+     padding: 1.2vw 8vw;
+     background-color: transparent;
+}
+
+.fiveth .photo {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 2vw;
+     height: 50%;
+     width: 100%;
+     background-color: aliceblue;
+}
+
+.p {
+     height: 100%;
+     width: 30%;
+}
+
+.p img {
+     height: 100%;
+     width: 100%;
+}
+
+.sixth {
+     display: flex;
+     align-items: end;
+     gap: 1vw;
+     height: 25vw;
+     width: 100%;
+}
+
+.sixth .photo {
+     height: 90%;
+     width: 20%;
+}
+
+.sixth .photo img {
+     height: 100%;
+     width: 100%;
+}
+
+.seven {
+     display: flex;
+     height: 10vw;
+     width: 100%;
+     background-color: gainsboro;
+     border-bottom: .2vw solid rgb(162, 160, 160);
+}
+
+.sleft {
+     height: 100%;
+     display: flex;
+     align-items: center;
+     width: 20%;
+}
+
+.sleft h1 {
+     font-size: 2vw;
+     font-weight: 100;
+}
+
+.smid {
+     height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 5vw;
+     width: 60%;
+}
+
+.smid h3 {
+     font-size: 1.2vw;
+     font-weight: 100;
+}
+
+.sright {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100%;
+     width: 20%;
+     gap: 2vw;
+}
+
+.sright i {
+     font-size: 1.5vw;
+}
+
+small {
+     font-size: 1vw;
+}
+
+button {
+     font-size: 1vw;
+     cursor: pointer;
+}
