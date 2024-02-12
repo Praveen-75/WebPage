@@ -10,6 +10,10 @@ html {
      width: 100%;
 }
 
+body::-webkit-scrollbar {
+     display: none;
+}
+
 .main {
      min-height: 100vh;
      width: 100%;
@@ -17,7 +21,7 @@ html {
 }
 
 .nav {
-     height: 5vw;
+     height: 7vw;
      width: 100%;
      background-color: black;
      color: #fff;
@@ -27,7 +31,7 @@ html {
 .nav .sright button {
      background-color: transparent;
      color: #fff;
-     border: .1vw solid gray;
+     border: .1vw solid white;
      padding: 1vw 4vw;
      cursor: pointer;
 }
@@ -100,6 +104,7 @@ html {
 .fright button,
 .fleft button {
      padding: 1vw 4vw;
+     border: .1vw solid gray;
      margin-top: 3vw;
      background-color: transparent;
 }
@@ -124,7 +129,7 @@ html {
      width: 10vw;
      border-radius: 50%;
      background-color: transparent;
-     border: .1vw solid black;
+     border: .1vw solid gray;
 }
 
 .circle h3 {
@@ -133,10 +138,18 @@ html {
 }
 
 .thard {
+     position: relative;
      display: flex;
-     height: 35vw;
+     height: 40vw;
      width: 100%;
-     background-color: bisque;
+}
+
+#p2 {
+     position: absolute;
+     height: 50%;
+     width: 15%;
+     bottom: 2.5vw;
+     right: 3vw;
 }
 
 .thard p {
@@ -150,16 +163,55 @@ html {
      padding-left: 2vw;
 }
 
+.thard .fright img {
+     height: 80%;
+     width: 80%;
+}
+
 .fourth {
+     position: relative;
      display: flex;
      flex-direction: column;
      align-items: center;
      justify-content: center;
-     height: 25vw;
+     height: 35vw;
      gap: 1vw;
      width: 100%;
      background-color: rgba(0, 0, 0, 0.943);
      color: #fff;
+}
+
+.arrow {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: black;
+     position: absolute;
+     left: 23vw;
+     top: 19vw;
+     height: 3vw;
+     width: 3vw;
+     background-color: #fff;
+     border-radius: 50%;
+}
+
+.arrow i,
+.arrow1 i {
+     font-size: 1.5vw;
+}
+
+.arrow1 {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: black;
+     position: absolute;
+     right: 23vw;
+     top: 19vw;
+     height: 3vw;
+     width: 3vw;
+     background-color: #fff;
+     border-radius: 50%;
 }
 
 .fourth p {
@@ -193,7 +245,7 @@ html {
      justify-content: center;
      gap: 2vw;
      align-items: center;
-     height: 40vw;
+     height: 50vw;
      width: 100%;
      background-color: #fff;
 }
@@ -300,5 +352,10 @@ small {
 
 button {
      font-size: 1vw;
+     border: .1vw solid gray;
+     cursor: pointer;
+}
+
+i {
      cursor: pointer;
 }
